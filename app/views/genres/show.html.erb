@@ -1,0 +1,14 @@
+<h1>Movies for <%= @genre.name %></h1>
+
+<main>
+  <% @movies.each do |movie| %>
+    <section class="movie-details">
+      <div class="image">
+        <%= image_tag movie.image_file_name %>
+      </div>
+      <div class="details">
+        <h1><%= link_to movie.title, movie %></h1>
+      </div>
+    </section>
+  <% end%>
+</main>
