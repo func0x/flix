@@ -1,7 +1,11 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+genre_one:
+  name: "Action"
+  slug: "action"
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
 
-one:
-  name: MyString
-
-two:
-  name: MyString
+genre_two:
+  name: "Sci-Fi"
+  slug: "sci-fi"
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>

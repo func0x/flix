@@ -1,11 +1,21 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+movie_one:
+  title: "Released Movie"
+  description: <%= "a" * 30 %>
+  released_on: <%= 1.month.ago.to_date %>
+  duration: 120
+  rating: "PG"
+  total_gross: 100000000
+  slug: "released-movie"
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
 
-one:
-  title: MyString
-  rating: MyString
-  total_gross: 9.99
-
-two:
-  title: MyString
-  rating: MyString
-  total_gross: 9.99
+movie_two:
+  title: "Hit Movie"
+  description: <%= "a" * 30 %>
+  released_on: <%= 1.month.ago.to_date %>
+  duration: 120
+  rating: "PG"
+  total_gross: 300000000
+  slug: "hit-movie"
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>

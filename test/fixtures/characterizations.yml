@@ -1,9 +1,11 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+characterization_one:
+  movie: movie_one
+  genre: genre_one
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
 
-one:
-  movie: one
-  genre: one
-
-two:
-  movie: two
-  genre: two
+characterization_two:
+  movie: movie_two
+  genre: genre_two
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>

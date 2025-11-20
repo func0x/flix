@@ -1,13 +1,15 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+review_one:
+  stars: 5
+  comment: "Absolutely amazing movie!"
+  movie: movie_one
+  user: user_one
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
 
-one:
-  name: MyString
-  stars: 1
-  comment: MyText
-  movie: one
-
-two:
-  name: MyString
-  stars: 1
-  comment: MyText
-  movie: two
+review_two:
+  stars: 3
+  comment: "It was okay, could be better."
+  movie: movie_two
+  user: user_two
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>

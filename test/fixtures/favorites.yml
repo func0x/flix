@@ -1,9 +1,11 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+favorite_one:
+  user: user_one
+  movie: movie_one
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
 
-one:
-  movie: one
-  user: one
-
-two:
-  movie: two
-  user: two
+favorite_two:
+  user: user_two
+  movie: movie_two
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
